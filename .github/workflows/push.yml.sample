@@ -2,7 +2,7 @@ name: Build and Deploy
 
 on:
   push:
-    branches: ['feature/zk']
+    branches: ['develop']
 
 env:
   PROJECT_ID: ${{ vars.PROJECT_ID }}
